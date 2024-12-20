@@ -24,9 +24,9 @@ export default function Home() {
         <div className={styles.text}>
           <h1 className={styles.title}>AI traffic violation checker</h1>
           <p className={styles.subtitle}>
-            Ensure safer roads with DriveCheck AI. Analyze driving clips
-            effortlessly to detect traffic rule violations and promote
-            responsible driving behavior.
+            Ensure safer roads with AI traffic violation checker. Analyze
+            driving clips effortlessly to detect traffic rule violations and
+            promote responsible driving behavior.
           </p>
         </div>
         <div className={styles.inputWrapper}>
@@ -47,9 +47,6 @@ export default function Home() {
               name="file-input"
               className={styles.input}
             />
-          </div>
-          <div className={styles.resultWrapper}>
-            <p className={styles.resultTitle}>Results:</p>
           </div>
         </div>
         <button className={styles.submitButton}>
